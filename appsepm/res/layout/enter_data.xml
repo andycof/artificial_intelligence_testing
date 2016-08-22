@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" 
+              android:background="@drawable/book"
+              >
+ 
+    <EditText android:id="@+id/et_person_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:singleLine="true"
+              android:hint="Core Course"
+              android:inputType="textPersonName"
+              android:imeOptions="actionNext"
+               android:textColor="#ffffff"
+              />
+ 
+    <EditText android:id="@+id/et_person_pin"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:singleLine="true"
+              android:hint="Faculty"
+              android:inputType="textCapCharacters"
+              android:imeOptions="actionDone"
+               android:textColor="#ffffff"
+              />
+ 
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Add"
+            android:onClick="onClickAdd"/>
+ 
+</LinearLayout>

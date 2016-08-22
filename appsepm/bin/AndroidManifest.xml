@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appsepm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.appsepm.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.appsepm.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.appsepm.Hod"
+            android:label="@string/title_activity_hod" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.appsepm.Dean"
+            android:label="@string/title_activity_dean" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.appsepm.Faculty"
+            android:label="@string/title_activity_faculty" >
+            <intent-filter>
+                <action android:name="android.intent.action.FACULTY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.appsepm.CoreCourses"
+            android:label="Core Courses" >
+        </activity>
+        <activity
+            android:name="com.example.appsepm.Electives"
+            android:label="Electives" >
+        </activity>
+        <activity
+            android:name="com.example.appsepm.EnterDataActivity"
+            android:label="Electives" >
+        </activity>
+        <activity
+            android:name="com.example.appsepm.ElectivesFaculty"
+            android:label="@string/title_activity_electives_faculty" >
+        </activity>
+        <activity
+            android:name="com.example.appsepm.FacultyCoreCourses"
+            android:label="@string/title_activity_faculty_core_courses" >
+        </activity>
+        <activity
+            android:name="com.example.appsepm.AddElectives"
+            android:label="@string/title_activity_add_electives" >
+        </activity>
+    </application>
+
+</manifest>
